@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='mail-service',
-    version='0.7.0',
+    version='1.0.0',
     author='Rishabh Oswal',
     author_email='rishabh.oswal@cropdata.in',
     description='Mail Service Package',
