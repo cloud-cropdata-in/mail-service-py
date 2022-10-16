@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/cloud-cropdata-in/mail-service-py.git"
     },
     license='MIT',
-    packages=['mail-service-py'],
+    packages=['mail_service'],
     install_requires=['requests'],
 )
