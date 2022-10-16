@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='mail-service',
+    name='mail-service-py',
     version='1.0.0',
     author='Rishabh Oswal',
     author_email='rishabh.oswal@cropdata.in',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/cloud-cropdata-in/mail-service-py.git"
     },
     license='MIT',
-    packages=['mail_service'],
+    packages=['mail_service-py'],
     install_requires=['requests'],
 )
